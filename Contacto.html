@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Para cualquier duda acerca de cryptocash o tus inversiones, contactate">
+    <meta name="keywords" content="criptomonedas, inversiones, bitcoin, ethereum, billetera digital, contacto, asistencia">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactáte con cryptocash</title>
+    <link rel="stylesheet" href="estilo.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43c2546ed4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html"><img src="logos/Logoblanco.png" width="250px" heigth="200px" alt="foto"></a> 
+           <input type="checkbox" id="botonMenu">
+           <label for="botonMenu"><img src="img/menuH.png" alt=""></label>
+        <nav class="estructuraNav">
+             <ul>
+                <li><a class="navItems" href= "Index.html">Inicio</a>
+                 <li><a class="navItems" href= "Aprende.html">Aprendé</a>
+                      <ul>
+                          <li><a class="navItems" href="Aprende.html">Videos</a></li>
+                          <li><a class="navItems" href="Aprende.html#docu">Documentales</a></li>
+                    </ul>
+                  </li>
+                  <li><a  class="navItems" href= "Contacto.html">Contacto</a></li>
+                  <li><a  class="navItems" href= "Ingresar.html">Ingresar</a></li>
+                  <li><a  class="navItems" href= "Blog.html">Blog</a></li>
+             </ul>
+        </nav>   
+   </header>
+<main>
+    <h1>Contactáte</h1>
+ <br>
+    <form>
+        <form action="">
+            <fieldset>
+                <legend> Formulario de contacto</legend>
+                <br>
+                <div>
+                    <label class="formatoLabels" for= "nombre"> Escribe tu nombre</label>
+                    <input class="estiloInputs" type= "text" name="nombre">
+                </div>
+                <br>
+                <div>
+                   <label class="formatoLabels" for= "apellido"> Escribe tu apellido</label>
+                   <input class="estiloInputs" type="text" name="apellido">
+                </div>
+                <br>
+                <div>
+                    <label class="formatoLabels" for="sexo">Señalá tu género</label>
+                    <input type="radio" name="genero" value="hombre">Masculino
+                    <input type="radio" name="genero" value="mujer">Femenino
+                    <input type="radio" name="genero" value="otro">Otro
+                </div>
+                <br>
+                <div>
+                    <label class="formatoLabels" for="email"> Escribe tu mail</label>
+                    <input class="estiloInputs" type='email' name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label class="formatoLabels" for="Contraseña">Escribe tu contraseña</label>
+                    <input class="estiloInputs" type="contraseña" name="Contraseña" required>
+                </div>
+                <br>
+                <div>
+                    <label class="formatoLabels" for="pais"> Elije tu nacionalidad</label>
+                    <select name="pais">
+                        <option value="arg"> Argentina</option>
+                        <option value="Ve"> Venezuela</option>
+                        <option value="Ch"> Chile</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label class="formatoLabels" for="comentario"> Deja tu comentario</label>
+                    <textarea name="comentario"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input class="button" type="submit" value="Enviar datos">
+                    <input class="button" type="reset" value="Borrar datos">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+     <footer>
+            <div>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+     </footer>
+</body>
+</html>

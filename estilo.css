@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/Fondonegro.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: center;
+}
+#botonMenu{
+    display: none;
+}
+.logo{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+header label{
+    display: none;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+header label img{
+    width: 50px;
+    height: 50px;
+}
+header label:hover{
+    cursor: pointer;
+}
+.estructuraNav ul{
+    display: flex;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+.estructuraNav ul ul{
+    display: none;
+    position: absolute;
+}
+.estructuranNav li a{
+    display: block;
+}
+.estructuraNav ul ul li{
+    display: block;
+}
+.estructuraNav li{
+display: inline-block;
+position:relative;
+font-size: 20px;
+width:20%;
+margin-right: auto;
+margin-left: auto;
+}
+.estructuraNav ul ul li:hover{
+display: block;
+}
+li:hover{
+ color:white;   
+ font-weight: bold;
+}
+.navItems{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.navItems:hover{
+    color:grey;
+}
+.estructuraNav ul li:hover ul{
+    display:block;
+}
+h1{
+    Color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.formatoTexto{
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    word-spacing: 3px;
+    padding: 50px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 25px;
+    background-color: rgba(0, 23, 99, 60%);
+}
+h2{
+    color: white;
+    font-family:'Stick No Bills', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+.listaDos{
+    Color:white;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    line-height: 50px;
+    border-radius: 100%;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.listaDos li{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    Color: white;
+    font-weight: bold;
+    background-color: rgba(0, 23, 99, 50%);
+    margin: auto;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-top: 100px;
+    width: 400px;
+}
+.estiloInputs{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.button{
+    padding: 8px;
+    font-family:'Stick No Bills', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.formatoLabels{
+    margin-left: 20px;
+}
+footer{
+    padding: 50px;
+    margin-top: 50px;
+}
+.tituloBlog{
+    margin-top:40px;
+}
+h3{ 
+    color:white;
+    background: linear-gradient(rgb(0, 23, 99), rgba(0, 23, 99, 1%));
+    text-align: center;
+    margin-top: 50px;
+    width:100%;
+}
+.estructuraVideos{
+    display:flex ;
+    justify-content: center;
+}
+.estructuraVideos li{
+    align-items: center;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: center;
+    margin: 10px;
+    width: 550px;
+}
+.formatoMargin{
+    margin-top: 80px;
+}
+.estructuraOpciones{
+    margin-bottom: 145px;
+    margin-top: 20px;
+}
+.listaPosteos{
+    height: 800px;
+}
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-around;
+}
+.post-img-1{
+    background: url(img/Bitcoin-43.jpg);
+    width: 100%;
+    height: 280px;
+    background-size:cover;
+    background-position: center;
+}
+.edicionTexto{
+    background-color: rgba(0, 23, 99, 60%);
+    color: white;
+    line-height: 50px;
+}
+.post{
+    width: 500px;
+    height: 300px;
+    margin:20px;
+    opacity: .8;
+    border: grey solid 2px;
+}
+span{
+    color:white;
+    background-color: rgb(0, 23, 99); ;
+}
+.post-link{
+    background-color: rgb(0, 23, 99);
+}
+.post-img-2{
+    background: url(img/AMC-acepta-cripto.jpg);
+    width: 100%;
+    height: 280px;
+    background-size:cover;
+    background-position: center;
+}
+.post-img-3{
+    background: url(img/bitcoin-criptomonedas.jpg);
+    width: 100%;
+    height: 280px;
+    background-size:cover;
+    background-position: center;
+}
+.post:hover{
+    opacity: 1;
+    border: white solid 2px;
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+}
+.mainBlog{
+    padding-bottom: 100px;
+}
+.estructuraNav{
+    margin-top: 50px;
+    background: linear-gradient(rgb(0, 23, 99), rgba(0, 23, 99, 1%));
+    font-family: 'Stick No Bills', sans-serif;
+}
+footer{
+    display: grid;
+    justify-content: left;
+  } 
+footer i{
+   font-size: 50px;
+   color:rgb(255, 255, 255);
+   margin: 10px;
+   }
+.quePodesHacer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.quePodesHacer:hover{
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+}
+.invertiDesde{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* MOBILE FIRST*/
+
+.converter{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    font-family: 'Stick No Bills', sans-serif;
+    width: 600px;
+    border-radius: 3%;
+}
+.estructuraMonedas{
+  font-size: 18px;
+  padding-top: 20px;
+}
+.estructuraOpciones{
+    padding: 8px;
+    margin-top: 30px;
+}
+.buttonCotizador{
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+.servicio{
+    background-color: rgba(0, 23, 99, 50%);
+    padding: 1rem;
+    border-radius: 10%;
+}
+.servicioTexto{
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    nav{ 
+        font-size: 22px;
+    }
+    h1{
+     font-size: 22px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    .formatoTexto{
+        font-size: 16px;
+    }
+    .listaDos{
+        width:100%;
+    }
+    .listaDos li {
+        font-size: 14px;
+    }
+    .logo img{
+        display: grid;
+        width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   footer{
+     display: grid;
+     justify-content: center;
+   } 
+   footer i{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    }
+    .converter{
+        width:400px;
+        grid-template-columns: 1fr;
+    }
+    .buttonCotizador{
+        margin-left: 1px;
+    }
+    header label{
+        display:block;
+
+    }
+    .estructuraNav{
+        position:absolute;   
+        width: 40%;
+        margin-left: -90%;
+        margin-top: 50px;
+        Z-INDEX:1;
+    }
+    .estructuraNav ul{
+        flex-direction: column;
+    }
+    .estructuraNav li{
+        border-top: 1 solid white;
+        margin-bottom: 60px;
+        margin-left: 10px;
+    }
+    .estructuraNav li li{
+        margin-bottom: 1px;
+    }
+    .estructuraNav ul ul{
+        display: none;
+    }
+    #botonMenu:checked ~ .estructuraNav{
+        margin-left: 0px;
+    }
+    .estructuraVideos{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .estructuraVideos li{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post{
+        margin-bottom: 300px;
+        width: 450px;
+        height: 100px;
+    }
+    .post-img-1{
+        height: 170px;
+    }
+    .post-img-2{
+        height: 170px;
+    }
+    .post-img-3{
+        height: 170px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    .quePodesHacer{
+        grid-template-columns: 1fr;
+    }
+    .edicionTexto{
+        line-height: 20px;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 768px){
+    nav{ 
+        font-size: 25px;
+    }
+    h1{
+     font-size: 25px;
+    }
+    h2{
+     font-size: 22px;
+    }
+    .formatoTexto{
+        font-size: 18px;
+    }
+    .listaDos{
+        width: 85%;
+    }
+    .listaDos li{
+        font-size: 17px;
+    }
+    .estructuraVideos iframe{
+        width: 350px;
+        height: 200px;
+    }
+    .estructuraVideos li{
+        width:400px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    nav{ 
+        font-size: 30px;
+    }
+    h1{
+     font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .formatoTexto{
+        font-size: 21px;
+    }
+    .listaDos{
+        width: 70%;
+    }
+    .listaDos li{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .estructuraVideos iframe{
+        width: 500px;
+        height: 300px;
+    }
+    .estructuraVideos li{
+        width:550px;
+    }
+    .InvertiDesde{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
